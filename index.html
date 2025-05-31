@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Géolocalisation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 Géolocalisation Web</h1>
+
+    <div class="options">
+      <label>
+        <input type="checkbox" id="autoGeo" />
+        Activer la géolocalisation automatique
+      </label>
+    </div>
+
+    <button id="manualBtn">Obtenir ma position actuelle</button>
+
+    <div class="location-display" id="locationDisplay">
+      <h2>🔎 Position actuelle :</h2>
+      <p><strong>Longitude :</strong> <span id="longitude">--</span></p>
+      <p><strong>Latitude :</strong> <span id="latitude">--</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
